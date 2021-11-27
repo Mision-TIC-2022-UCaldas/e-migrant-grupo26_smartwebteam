@@ -1,0 +1,12 @@
+D:\Users\JOAN ANDRES\Desktop\Codes VSC\Hakaton\E_Migration.App\E_Migration.App.Dominio\obj\Debug\net5.0\E_Migration.App.Dominio.csproj.AssemblyReference.cache
+D:\Users\JOAN ANDRES\Desktop\Codes VSC\Hakaton\E_Migration.App\E_Migration.App.Dominio\obj\Debug\net5.0\E_Migration.App.Dominio.GeneratedMSBuildEditorConfig.editorconfig
+D:\Users\JOAN ANDRES\Desktop\Codes VSC\Hakaton\E_Migration.App\E_Migration.App.Dominio\obj\Debug\net5.0\E_Migration.App.Dominio.AssemblyInfoInputs.cache
+D:\Users\JOAN ANDRES\Desktop\Codes VSC\Hakaton\E_Migration.App\E_Migration.App.Dominio\obj\Debug\net5.0\E_Migration.App.Dominio.AssemblyInfo.cs
+D:\Users\JOAN ANDRES\Desktop\Codes VSC\Hakaton\E_Migration.App\E_Migration.App.Dominio\obj\Debug\net5.0\E_Migration.App.Dominio.csproj.CoreCompileInputs.cache
+D:\Users\JOAN ANDRES\Desktop\Codes VSC\Hakaton\E_Migration.App\E_Migration.App.Dominio\bin\Debug\net5.0\E_Migration.App.Dominio.deps.json
+D:\Users\JOAN ANDRES\Desktop\Codes VSC\Hakaton\E_Migration.App\E_Migration.App.Dominio\bin\Debug\net5.0\E_Migration.App.Dominio.dll
+D:\Users\JOAN ANDRES\Desktop\Codes VSC\Hakaton\E_Migration.App\E_Migration.App.Dominio\bin\Debug\net5.0\ref\E_Migration.App.Dominio.dll
+D:\Users\JOAN ANDRES\Desktop\Codes VSC\Hakaton\E_Migration.App\E_Migration.App.Dominio\bin\Debug\net5.0\E_Migration.App.Dominio.pdb
+D:\Users\JOAN ANDRES\Desktop\Codes VSC\Hakaton\E_Migration.App\E_Migration.App.Dominio\obj\Debug\net5.0\E_Migration.App.Dominio.dll
+D:\Users\JOAN ANDRES\Desktop\Codes VSC\Hakaton\E_Migration.App\E_Migration.App.Dominio\obj\Debug\net5.0\ref\E_Migration.App.Dominio.dll
+D:\Users\JOAN ANDRES\Desktop\Codes VSC\Hakaton\E_Migration.App\E_Migration.App.Dominio\obj\Debug\net5.0\E_Migration.App.Dominio.pdb
