@@ -2,12 +2,12 @@
 using System;
 using System.Collections.Generic;
 
-namespace Dominio
+namespace E_Migration.App.Dominio
 {
     public class Solicitud
     {
         
-        public int Id_Solicitud{get;set;}
+        public int Id {get;set;}
         public string Fecha_Aceptacion{get;set;}
         public string Descripcion_Servicio{get;set;}
         public string Entidad_of{get;set;}
@@ -15,9 +15,6 @@ namespace Dominio
         public bool Aceptar{get;set;}
         public bool Transferir{get;set;}
         public int Doc_Transf{get;set;}
-
-        //llave forane para la relacion con Escenario
-        public int EscenarioId{get;set;}
 
     }
 }

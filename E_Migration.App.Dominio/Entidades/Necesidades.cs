@@ -2,12 +2,12 @@
 using System;
 using System.Collections.Generic;
 
-namespace Dominio
+namespace E_Migration.App.Dominio
 {
     public class Necesidades
     {
         
-        public int Id_Necesidad{get;set;}
+        public int Id {get;set;}
         // public list<string> Tipo_Necesidad{get;set;} 
         // public list<string> Prioridad{get;set;}
 

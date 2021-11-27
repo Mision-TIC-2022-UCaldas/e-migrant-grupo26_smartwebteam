@@ -2,7 +2,7 @@
 using System;
 using System.Collections.Generic;
 
-namespace Dominio
+namespace E_Migration.App.Dominio
 {
     public enum Calificacion
     {
@@ -12,6 +12,6 @@ namespace Dominio
         muyBueno,
         excelente
 
-    }
+    };
 
 }
