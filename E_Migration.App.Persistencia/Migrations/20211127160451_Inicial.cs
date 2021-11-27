@@ -1,4 +1,5 @@
-﻿using Microsoft.EntityFrameworkCore.Migrations;
+﻿using System;
+using Microsoft.EntityFrameworkCore.Migrations;
 
 namespace E_Migration.App.Persistencia.Migrations
 {
@@ -17,12 +18,12 @@ namespace E_Migration.App.Persistencia.Migrations
                     Tipo_Documento = table.Column<string>(type: "nvarchar(max)", nullable: true),
                     Numero_Identificacion = table.Column<string>(type: "nvarchar(max)", nullable: true),
                     Pais_Origen = table.Column<string>(type: "nvarchar(max)", nullable: true),
-                    Fecha_Nacimiento = table.Column<string>(type: "nvarchar(max)", nullable: true),
-                    Correo_Electronico = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    Numero_Telefonico = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    Direccion_Actual = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    Ciudad = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    Situacion_Laboral = table.Column<string>(type: "nvarchar(max)", nullable: false)
+                    Fecha_Nacimiento = table.Column<DateTime>(type: "datetime2", nullable: false),
+                    Correo_Electronico = table.Column<string>(type: "nvarchar(max)", nullable: true),
+                    Numero_Telefonico = table.Column<string>(type: "nvarchar(max)", nullable: true),
+                    Direccion_Actual = table.Column<string>(type: "nvarchar(max)", nullable: true),
+                    Ciudad = table.Column<string>(type: "nvarchar(max)", nullable: true),
+                    Situacion_Laboral = table.Column<string>(type: "nvarchar(max)", nullable: true)
                 },
                 constraints: table =>
                 {

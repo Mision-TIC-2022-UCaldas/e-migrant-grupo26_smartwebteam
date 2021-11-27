@@ -18,15 +18,15 @@ namespace E_Migration.App.Consola
             {
                 var migrante = new Migrante
             {
-                Nombre = "Juan",
-                Apellidos = "Perez",
+                Nombre = "Camila",
+                Apellidos = "Gutierrez  ",
                 Tipo_Documento = "Pasaporte",
-                Numero_Identificacion = "123",
+                Numero_Identificacion = "123456",
                 Pais_Origen = "Venezuela",
-                Fecha_Nacimiento = "1987-12-24",
+                Fecha_Nacimiento = new DateTime(1994,12,24),
                 Correo_Electronico = "gh@huj.com",
-                Numero_Telefonico = "32154554",
-                Direccion_Actual = "cll 45",
+                Numero_Telefonico = "32456554",
+                Direccion_Actual = "cll 478",
                 Ciudad = "Bogotá DC",
                 Situacion_Laboral = "Desempleado"
             };
