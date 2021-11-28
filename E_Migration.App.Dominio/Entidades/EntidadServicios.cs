@@ -11,6 +11,5 @@ namespace E_Migration.App.Dominio
         public int Id_Entidad{get;set;}
         public Entidad Entidad{get;set;}
         public Servicios Servicios{get;set;}
-
     }
 }

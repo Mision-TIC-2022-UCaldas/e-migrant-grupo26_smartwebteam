@@ -1,6 +1,8 @@
 // importacion de librerias y referencias
 using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace E_Migration.App.Dominio
 {

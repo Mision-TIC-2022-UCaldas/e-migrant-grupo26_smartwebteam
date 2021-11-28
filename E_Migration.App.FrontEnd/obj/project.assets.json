@@ -7469,11 +7469,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Users\\JOAN ANDRES\\Desktop\\Codes VSC\\Hakaton\\E_Migration.App\\E_Migration.App.FrontEnd\\E_Migration.App.FrontEnd.csproj",
+      "projectUniqueName": "D:\\Users\\JOAN ANDRES\\Desktop\\Codes VSC\\Hakaton (1)\\Hakaton\\E_Migration.App\\E_Migration.App.FrontEnd\\E_Migration.App.FrontEnd.csproj",
       "projectName": "E_Migration.App.FrontEnd",
-      "projectPath": "D:\\Users\\JOAN ANDRES\\Desktop\\Codes VSC\\Hakaton\\E_Migration.App\\E_Migration.App.FrontEnd\\E_Migration.App.FrontEnd.csproj",
+      "projectPath": "D:\\Users\\JOAN ANDRES\\Desktop\\Codes VSC\\Hakaton (1)\\Hakaton\\E_Migration.App\\E_Migration.App.FrontEnd\\E_Migration.App.FrontEnd.csproj",
       "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-      "outputPath": "D:\\Users\\JOAN ANDRES\\Desktop\\Codes VSC\\Hakaton\\E_Migration.App\\E_Migration.App.FrontEnd\\obj\\",
+      "outputPath": "D:\\Users\\JOAN ANDRES\\Desktop\\Codes VSC\\Hakaton (1)\\Hakaton\\E_Migration.App\\E_Migration.App.FrontEnd\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -7494,11 +7494,11 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "D:\\Users\\JOAN ANDRES\\Desktop\\Codes VSC\\Hakaton\\E_Migration.App\\E_Migration.App.Dominio\\E_Migration.App.Dominio.csproj": {
-              "projectPath": "D:\\Users\\JOAN ANDRES\\Desktop\\Codes VSC\\Hakaton\\E_Migration.App\\E_Migration.App.Dominio\\E_Migration.App.Dominio.csproj"
+            "D:\\Users\\JOAN ANDRES\\Desktop\\Codes VSC\\Hakaton (1)\\Hakaton\\E_Migration.App\\E_Migration.App.Dominio\\E_Migration.App.Dominio.csproj": {
+              "projectPath": "D:\\Users\\JOAN ANDRES\\Desktop\\Codes VSC\\Hakaton (1)\\Hakaton\\E_Migration.App\\E_Migration.App.Dominio\\E_Migration.App.Dominio.csproj"
             },
-            "D:\\Users\\JOAN ANDRES\\Desktop\\Codes VSC\\Hakaton\\E_Migration.App\\E_Migration.App.Persistencia\\E_Migration.App.Persistencia.csproj": {
-              "projectPath": "D:\\Users\\JOAN ANDRES\\Desktop\\Codes VSC\\Hakaton\\E_Migration.App\\E_Migration.App.Persistencia\\E_Migration.App.Persistencia.csproj"
+            "D:\\Users\\JOAN ANDRES\\Desktop\\Codes VSC\\Hakaton (1)\\Hakaton\\E_Migration.App\\E_Migration.App.Persistencia\\E_Migration.App.Persistencia.csproj": {
+              "projectPath": "D:\\Users\\JOAN ANDRES\\Desktop\\Codes VSC\\Hakaton (1)\\Hakaton\\E_Migration.App\\E_Migration.App.Persistencia\\E_Migration.App.Persistencia.csproj"
             }
           }
         }
