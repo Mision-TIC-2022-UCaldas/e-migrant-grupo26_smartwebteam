@@ -10,7 +10,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace E_Migration.App.Persistencia.Migrations
 {
     [DbContext(typeof(AppContext))]
-    [Migration("20211127160451_Inicial")]
+    [Migration("20211127220107_Inicial")]
     partial class Inicial
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -29,7 +29,9 @@ namespace E_Migration.App.Persistencia.Migrations
                         .UseIdentityColumn();
 
                     b.Property<string>("Apellidos")
-                        .HasColumnType("nvarchar(max)");
+                        .IsRequired()
+                        .HasMaxLength(40)
+                        .HasColumnType("nvarchar(40)");
 
                     b.Property<string>("Ciudad")
                         .HasColumnType("nvarchar(max)");

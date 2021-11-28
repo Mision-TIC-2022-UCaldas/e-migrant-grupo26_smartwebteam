@@ -27,7 +27,9 @@ namespace E_Migration.App.Persistencia.Migrations
                         .UseIdentityColumn();
 
                     b.Property<string>("Apellidos")
-                        .HasColumnType("nvarchar(max)");
+                        .IsRequired()
+                        .HasMaxLength(40)
+                        .HasColumnType("nvarchar(40)");
 
                     b.Property<string>("Ciudad")
                         .HasColumnType("nvarchar(max)");

@@ -34,12 +34,15 @@ namespace E_Migration.App.FrontEnd.Pages.iMigrante
             bool creado = _repoMigrante.AddMigrante(Migrante);
             if (creado)
             {
+                ViewData["Mensaje"] = "Registro Exitoso.";
                 //return RedirectToPage("./Index");
                 return Page();
             }
+
             else
             {
                 //viewData["repoMunicipio"] = creado;
+                //=_repoEquipo.ListarEquipos();
                 ViewData["Mensaje"] = "Esta persona ya está registrada.";
                 return Page();
             }

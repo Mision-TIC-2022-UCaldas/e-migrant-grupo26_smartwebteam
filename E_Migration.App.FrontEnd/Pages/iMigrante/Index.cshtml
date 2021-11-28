@@ -1,0 +1,37 @@
+﻿@page
+@model E_Migration.App.Frontend.Pages.iMigrante.IndexModel
+@{
+    ViewData["Title"]= "MigrantesIndex";
+}
+<h1>Lista de Migrantes</h1>
+<p> 
+    <a asp-page= "Agregar"> Registrar Migrante</a>
+</p>
+
+<table class="table">
+    <thead>
+        <tr>   
+            <th> Nombre </th>
+            <th> Apellidos </th>
+            <th> Tipo Documento </th>
+            <th> Número documento </th>
+            <th> Pais de origen </th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var migrante in Model.Migrantes)
+        {
+        <tr>
+            <td> @migrante.Nombre</td>
+            <td> @migrante.Apellidos </td>
+            <td> @migrante.Tipo_Documento </td>
+            <td> @migrante.Numero_Identificacion </td>
+            <td> @migrante.Pais_Origen </td>
+            <td>
+                <a asp-page="./Actualizar" asp-route-id="@migrante.Id">Actualizar</a>
+                <a asp-page="./Buscar"asp-route-id="@migrante.Id">Consultar</a>
+            </td>
+        </tr>
+        }
+    </tbody>
+</table>

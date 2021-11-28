@@ -19,7 +19,7 @@ namespace E_Migration.App.FrontEnd.Pages
 
         public void OnGet()
         {
-
+            //return RedirectToPage("identity/account/register");
         }
     }
 }
