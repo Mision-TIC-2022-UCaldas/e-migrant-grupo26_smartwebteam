@@ -2117,6 +2117,20 @@
           "lib/netstandard1.3/System.Xml.XmlSerializer.dll": {}
         }
       },
+      "E_Migration.App.Consola/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "E_Migration.App.Dominio": "1.0.0",
+          "E_Migration.App.Persistencia": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/E_Migration.App.Consola.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/E_Migration.App.Consola.dll": {}
+        }
+      },
       "E_Migration.App.Dominio/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
@@ -7440,6 +7454,11 @@
         "system.xml.xmlserializer.nuspec"
       ]
     },
+    "E_Migration.App.Consola/1.0.0": {
+      "type": "project",
+      "path": "../E_Migration.App.Consola/E_Migration.App.Consola.csproj",
+      "msbuildProject": "../E_Migration.App.Consola/E_Migration.App.Consola.csproj"
+    },
     "E_Migration.App.Dominio/1.0.0": {
       "type": "project",
       "path": "../E_Migration.App.Dominio/E_Migration.App.Dominio.csproj",
@@ -7453,6 +7472,7 @@
   },
   "projectFileDependencyGroups": {
     "net5.0": [
+      "E_Migration.App.Consola >= 1.0.0",
       "E_Migration.App.Dominio >= 1.0.0",
       "E_Migration.App.Persistencia >= 1.0.0",
       "Microsoft.AspNetCore.Identity.EntityFrameworkCore >= 5.0.9",
@@ -7494,6 +7514,9 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
+            "D:\\Users\\JOAN ANDRES\\Desktop\\Codes VSC\\Hakaton (1)\\Hakaton\\E_Migration.App\\E_Migration.App.Consola\\E_Migration.App.Consola.csproj": {
+              "projectPath": "D:\\Users\\JOAN ANDRES\\Desktop\\Codes VSC\\Hakaton (1)\\Hakaton\\E_Migration.App\\E_Migration.App.Consola\\E_Migration.App.Consola.csproj"
+            },
             "D:\\Users\\JOAN ANDRES\\Desktop\\Codes VSC\\Hakaton (1)\\Hakaton\\E_Migration.App\\E_Migration.App.Dominio\\E_Migration.App.Dominio.csproj": {
               "projectPath": "D:\\Users\\JOAN ANDRES\\Desktop\\Codes VSC\\Hakaton (1)\\Hakaton\\E_Migration.App\\E_Migration.App.Dominio\\E_Migration.App.Dominio.csproj"
             },

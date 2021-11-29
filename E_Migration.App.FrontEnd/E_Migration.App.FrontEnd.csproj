@@ -3,6 +3,7 @@
   <ItemGroup>
     <ProjectReference Include="..\E_Migration.App.Persistencia\E_Migration.App.Persistencia.csproj" />
     <ProjectReference Include="..\E_Migration.App.Dominio\E_Migration.App.Dominio.csproj" />
+    <ProjectReference Include="..\E_Migration.App.Consola\E_Migration.App.Consola.csproj" />
   </ItemGroup>
 
   <ItemGroup>

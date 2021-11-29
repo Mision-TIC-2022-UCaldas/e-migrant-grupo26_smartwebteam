@@ -13,6 +13,7 @@ namespace E_Migration.App.Persistencia
         public DbSet<Necesidades> Necesidades { get; set; }
         public DbSet<Novedades> Novedades { get; set; }
         public DbSet<Servicios> Servicios { get; set; }
+        public DbSet<RegisGoogle> RegisGoogle {get; set; }
         // public DbSet<Solicitud> Solicitud { get; set; }
 
     //configurando la conexión a la base de datos

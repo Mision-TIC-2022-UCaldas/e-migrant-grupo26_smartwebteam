@@ -27,6 +27,7 @@ namespace E_Migration.App.FrontEnd
         {
             //Inyecion de indepandencia
             services.AddScoped<IRepositorioMigrante, RepositorioMigrante>();
+            services.AddScoped<IRepositorioRegisGoogle, RepositorioRegisGoogle>();
             services.AddRazorPages();
 
             //Registrar el contexto de datos

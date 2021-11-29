@@ -1,0 +1,67 @@
+﻿@page
+@model E_Migration.App.FrontEnd.Areas.Identity.Pages.Account.Google.AgregarGoogleModel
+@{
+    ViewData["Title"] = "Registro Google";
+}
+
+<head>
+    <script src="https://apis.google.com/js/platform.js" async defer></script>
+    <meta name="google-signin-client_id"
+        content="300731341624-9tvcva0fsiakvinccimsic4lchn8vnkh.apps.googleusercontent.com">
+    <title>E_Migration.App LOGIN GOOGLE</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="google" content="notranslate" />
+</head>
+
+
+<h1>Login con Google</h1>
+
+<h3>@ViewData["Mensaje"]</h3>
+<script>
+    function onSignIn(googleUser) {
+        var profile = googleUser.getBasicProfile();
+    @*document.writeln('ID: ' + profile.getId());
+        document.writeln('Name: ' + profile.getName());
+        document.writeln('Image URL: ' + profile.getImageUrl());
+        document.writeln('Email: ' + profile.getEmail());*@
+        var Nombre = profile.getName();
+        var Email = profile.getEmail();
+        var name = document.getElementById("idN");
+        var email = document.getElementById("idE");
+        name.value = Nombre;
+        email.value = Email;
+
+    }
+</script>
+
+<div class="form-horizontal">
+    <hr />
+    <div class="row">
+        <div class="col-md-4">
+            <form method="post">
+                <div class="form-group">
+                    <label asp-for="RegisGoogle.Nombre" class="control-label">Nombre</label>
+                    <input id="idN" asp-for="RegisGoogle.Nombre" class="form-control" readonly />
+                    <label asp-for="RegisGoogle.Email" class="control-label">Email</label>
+                    <input id="idE" asp-for="RegisGoogle.Email" class="form-control" readonly />
+                    <!--Boton de google-->
+                    <div id="idBoton" class="g-signin2" data-onsuccess="onSignIn"></div>
+                </div> 
+                <div class="form-group">
+                    <input type="submit" value="Registrar" class="btn btn-primary" />
+                </div>    
+            </form>
+        </div>
+    </div>
+    <div>
+        <a asp-page="Index">Atrás</a>
+    </div>
+</div>
+@section Scripts
+{
+@{
+await Html.RenderPartialAsync("_ValidationScriptsPartial");
+}
+
+}

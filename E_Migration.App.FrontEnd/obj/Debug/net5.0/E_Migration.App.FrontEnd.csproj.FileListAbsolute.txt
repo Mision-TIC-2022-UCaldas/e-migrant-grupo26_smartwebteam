@@ -514,3 +514,10 @@ D:\Users\JOAN ANDRES\Desktop\Codes VSC\Hakaton (1)\Hakaton\E_Migration.App\E_Mig
 D:\Users\JOAN ANDRES\Desktop\Codes VSC\Hakaton (1)\Hakaton\E_Migration.App\E_Migration.App.FrontEnd\obj\Debug\net5.0\ref\E_Migration.App.FrontEnd.dll
 D:\Users\JOAN ANDRES\Desktop\Codes VSC\Hakaton (1)\Hakaton\E_Migration.App\E_Migration.App.FrontEnd\obj\Debug\net5.0\E_Migration.App.FrontEnd.pdb
 D:\Users\JOAN ANDRES\Desktop\Codes VSC\Hakaton (1)\Hakaton\E_Migration.App\E_Migration.App.FrontEnd\obj\Debug\net5.0\E_Migration.App.FrontEnd.genruntimeconfig.cache
+D:\Users\JOAN ANDRES\Desktop\Codes VSC\Hakaton (1)\Hakaton\E_Migration.App\E_Migration.App.FrontEnd\obj\Debug\net5.0\Razor\Pages\Google\AgregarGoogle.cshtml.g.cs
+D:\Users\JOAN ANDRES\Desktop\Codes VSC\Hakaton (1)\Hakaton\E_Migration.App\E_Migration.App.FrontEnd\bin\Debug\net5.0\E_Migration.App.Consola.deps.json
+D:\Users\JOAN ANDRES\Desktop\Codes VSC\Hakaton (1)\Hakaton\E_Migration.App\E_Migration.App.FrontEnd\bin\Debug\net5.0\E_Migration.App.Consola.runtimeconfig.json
+D:\Users\JOAN ANDRES\Desktop\Codes VSC\Hakaton (1)\Hakaton\E_Migration.App\E_Migration.App.FrontEnd\bin\Debug\net5.0\E_Migration.App.Consola.runtimeconfig.dev.json
+D:\Users\JOAN ANDRES\Desktop\Codes VSC\Hakaton (1)\Hakaton\E_Migration.App\E_Migration.App.FrontEnd\bin\Debug\net5.0\E_Migration.App.Consola.exe
+D:\Users\JOAN ANDRES\Desktop\Codes VSC\Hakaton (1)\Hakaton\E_Migration.App\E_Migration.App.FrontEnd\bin\Debug\net5.0\E_Migration.App.Consola.dll
+D:\Users\JOAN ANDRES\Desktop\Codes VSC\Hakaton (1)\Hakaton\E_Migration.App\E_Migration.App.FrontEnd\bin\Debug\net5.0\E_Migration.App.Consola.pdb

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "clANLBWjPokCLIdz1Dnw9whbbCWbsPICYEEJHA7fEGsVwthrE31tkIbZHNk8k6HSuIUNpPBFoi3t6ZaB1RsXXw==",
+  "dgSpecHash": "/II6NG+oKDWZL/GZjgymEEwiMANRv1mpPP2V8PvnjOyPll1A4hRhjoflDviMgvnYLXUfmq9aZA1MIABaAuG7gA==",
   "success": true,
-  "projectFilePath": "D:\\Users\\JOAN ANDRES\\Desktop\\Codes VSC\\Hakaton\\E_Migration.App\\E_Migration.App.Consola\\E_Migration.App.Consola.csproj",
+  "projectFilePath": "D:\\Users\\JOAN ANDRES\\Desktop\\Codes VSC\\Hakaton (1)\\Hakaton\\E_Migration.App\\E_Migration.App.Consola\\E_Migration.App.Consola.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\User\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\User\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",

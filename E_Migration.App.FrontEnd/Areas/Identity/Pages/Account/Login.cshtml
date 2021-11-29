@@ -6,12 +6,10 @@
 }
 
 <head>
-    <script src="https://apis.google.com/js/platform.js" async defer></script>
-    <meta name="google-signin-client_id" content="300731341624-9tvcva0fsiakvinccimsic4lchn8vnkh.apps.googleusercontent.com">
     <title>E_Migration.App LOGIN</title>
-    <meta charset="utf-8"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <meta name="google" content="notranslate"/>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="google" content="notranslate" />
 </head>
 
 
@@ -46,15 +44,31 @@
                     <button type="submit" class="btn btn-primary">Log in</button>
                 </div>
                 <!--Boton de google-->
-                <div id="idBoton" class="g-signin2" data-onsuccess="onSignIn"></div>
-                <script>
-                    let id = document.getElementById("idBoton");
-                    id.onclick = mostrarMsn;
-                    function mostrarMsn()
-                    {
-                        document.writeln("Usuario Logeado Correctamente.");
+                <!--<div id="idBoton" class="g-signin2" data-onsuccess="onSignIn"></div>-->
+                @*<input asp-for="regisGoogle.Nombre" class="form-control" id="idN" />
+                <input asp-for="regisGoogle.Email" class="form-control" id="idE"/>
+                 <script>
+                    function onSignIn(googleUser) {
+                        var profile = googleUser.getBasicProfile();
+                        @* document.writeln('ID: ' + profile.getId());
+                        document.writeln('Name: ' + profile.getName());
+                        document.writeln('Image URL: ' + profile.getImageUrl());
+                        document.writeln('Email: ' + profile.getEmail()); 
+                        var Nombre = profile.getName().toString();
+                        var Email = profile.getEmail();
+                        document.writeln("Nombre de usuario: "+Nombre);
+                        document.writeln("Email de usuario: "+Email);
+
+                        var nombre = document.getElementById("idN");
+                        var email = document.getElementById("idE");
+
+                        nombre.value = Nombre;
+                        email.value = Email;
+
                     }
-                </script>
+                </script> *@
+
+
 
                 <div class="form-group">
                     <p>
@@ -79,19 +93,22 @@
                 {
                     <div>
                         <p>
-                            There are no external authentication services configured. See <a href="https://go.microsoft.com/fwlink/?LinkID=532715">this article</a>
+                            There are no external authentication services configured. See <a
+                            href="https://go.microsoft.com/fwlink/?LinkID=532715">this article</a>
                             for details on setting up this ASP.NET application to support logging in via external services.
                         </p>
                     </div>
                 }
                 else
                 {
-                    <form id="external-account" asp-page="./ExternalLogin" asp-route-returnUrl="@Model.ReturnUrl" method="post" class="form-horizontal">
+                    <form id="external-account" asp-page="./ExternalLogin" asp-route-returnUrl="@Model.ReturnUrl" method="post"
+                    class="form-horizontal">
                         <div>
                             <p>
                                 @foreach (var provider in Model.ExternalLogins)
                                 {
-                                    <button type="submit" class="btn btn-primary" name="provider" value="@provider.Name" title="Log in using your @provider.DisplayName account">@provider.DisplayName</button>
+                                    <button type="submit" class="btn btn-primary" name="provider" value="@provider.Name"
+                                title="Log in using your @provider.DisplayName account">@provider.DisplayName</button>
                                 }
                             </p>
                         </div>
@@ -103,5 +120,5 @@
 </div>
 
 @section Scripts {
-    <partial name="_ValidationScriptsPartial" />
+<partial name="_ValidationScriptsPartial" />
 }

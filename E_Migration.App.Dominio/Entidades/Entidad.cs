@@ -42,7 +42,7 @@ namespace E_Migration.App.Dominio
         [RegularExpression("[A-Za-z ]*", ErrorMessage="Sólo se permiten letras")]
         public string Sector { get; set; }
         [Required(ErrorMessage="El campo {0}, es obligatorio")]
-        public List<String> Tipo_Servicio { get; set; }
+        public string Tipo_Servicio { get; set; }
 
         public double Calificacion { get; set; }
     }
